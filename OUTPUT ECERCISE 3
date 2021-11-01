@@ -1,0 +1,13 @@
+Enter an integer :
+22
+Enter an Double value :
+33.33
+Using nextInt() :22
+Using nextDouble() :33.33
+Using nextInt() increment by 1 :23
+Using nextDouble() decreament by 1 :32.33
+Using nextInt() increment by 1 :28
+Using nextDouble() decreament by 1 :27.33
+Using nextInt() mod 10 :8
+Using nextDouble() mod 10 : 7.33
+Math power :1.058427069384214E44
