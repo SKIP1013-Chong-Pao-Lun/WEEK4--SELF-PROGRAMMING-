@@ -1,0 +1,33 @@
+package myScannner;
+
+import java.util.Scanner;
+
+public class Excercise3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int x;
+		double y;
+		Scanner scanMe=new Scanner(System.in);
+		System.out.println("Enter an integer :");
+		x=scanMe.nextInt();
+		System.out.println("Enter an Double value :");
+		y=scanMe.nextDouble();
+		System.out.println("Using nextInt() :"+x);
+		System.out.println("Using nextDouble() :"+y);
+
+		System.out.println("Using nextInt() increment by 1 :"+(++x));
+		System.out.println("Using nextDouble() decreament by 1 :" +(--y));
+		
+		System.out.println("Using nextInt() increment by 1 :"+(x+5));
+		System.out.println("Using nextDouble() decreament by 1 :" +(y-5));
+		
+		System.out.println("Using nextInt() mod 10 :"+((x+5)%10));
+		System.out.printf("Using nextDouble() mod 10 : %.2f" ,((y-5)%10));
+		
+		double a= Math.pow(x, y);
+		System.out.println("\nMath power :"+(a));
+		
+	}
+
+}
