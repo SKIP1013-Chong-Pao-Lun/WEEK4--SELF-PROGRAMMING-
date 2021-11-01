@@ -1,0 +1,18 @@
+package myScannner;
+import java.util.Scanner;
+public class Excercise1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String fname,lname;
+		Scanner scanMe=new Scanner(System.in);
+		System.out.println("Enter your name :");
+		fname=scanMe.next();
+		lname=scanMe.nextLine();
+		System.out.println("My first name is :"+fname);
+		System.out.println("My full name is :"+fname +""+lname);
+		
+		
+	}
+
+}
